@@ -50,7 +50,7 @@ ui <- fluidPage(
                      value = 2000),
          sliderInput("hour_cutoff",
                      "Select Hour Cutoff:",
-                     min = 15, # time formatting is so that 15 hour is 3:00pm
+                     min = 0, # time formatting is so that hour 13 is 1:00pm
                      max = 23,
                      value = 18)
       ),
